@@ -1,10 +1,6 @@
 {
     "db": {
-        "host": "localhost",
-        "port": 27017,
-        "url":  "",
-        "database": "live",
-        "name": "live",
-        "connector": "mongodb"
+        "name": "db",
+        "connector": "memory"
     }
 }
