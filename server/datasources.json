@@ -1,8 +1,9 @@
 {
-    "db": {
-        "connector": "mongodb",
-        "host": "127.0.0.1",
-        "database": "test",
-        "port": 27017
-    }
+  "db": {
+    "host": "127.0.0.1",
+    "port": 27017,
+    "database": "test",
+    "name": "db",
+    "connector": "mongodb"
+  }
 }
