@@ -1,0 +1,23 @@
+{
+  "name": "Client",
+  "base": "User",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "isAnchor": {
+      "type": "boolean"
+    }
+  },
+  "validations": [],
+  "relations": {
+    "lives": {
+      "type": "hasOne",
+      "model": "Live",
+      "foreignKey": ""
+    }
+  },
+  "acls": [],
+  "methods": {}
+}
