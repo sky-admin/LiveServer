@@ -19,6 +19,10 @@
       "type": "string",
       "required": false
     },
+    "rtmpPlay": {
+      "type": "string",
+      "required": false
+    },
     "clientId": {
       "type": "string",
       "required": true

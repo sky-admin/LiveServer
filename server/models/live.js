@@ -9,6 +9,7 @@ module.exports = function(Live) {
     var data = new Date().getTime();
     var id = crypto.createHash('md5').update(ctx.instance.name + data).digest('hex');
     ctx.instance.rtmpStream = 'rtmp://push.lihuanyu.com/live/' + id;
+    ctx.instance.rtmpPlay = 'rtmp://play.lihuanyu.com/live/' + id;
     next();
   })
 };
