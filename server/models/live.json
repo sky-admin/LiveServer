@@ -18,6 +18,10 @@
     "rtmpStream": {
       "type": "string",
       "required": false
+    },
+    "clientId": {
+      "type": "string",
+      "required": true
     }
   },
   "validations": [],
@@ -25,7 +29,8 @@
     "client": {
       "type": "belongsTo",
       "model": "Client",
-      "foreignKey": ""
+      "foreignKey": "",
+      "primaryKey": "id"
     }
   },
   "acls": [
