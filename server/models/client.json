@@ -16,6 +16,11 @@
     "lives": {
       "type": "hasOne",
       "model": "Live"
+    },
+    "comments": {
+      "type": "hasMany",
+      "model": "Comment",
+      "foreignKey": ""
     }
   },
   "acls": [
