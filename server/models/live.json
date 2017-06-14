@@ -15,6 +15,10 @@
       "type": "date",
       "required": true
     },
+    "catalog": {
+      "type": "string",
+      "required": false
+    },
     "rtmpStream": {
       "type": "string",
       "required": false
